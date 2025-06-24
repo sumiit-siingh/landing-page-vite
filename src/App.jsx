@@ -3,7 +3,7 @@ import { IoMdFlower } from "react-icons/io";
 
 function App() {
   return (
-    <div className="h-screen w-screen bg-red-400 relative overflow-hidden">
+    <div className="h-screen w-screen  relative overflow-hidden">
       <img
         src="https://res.cloudinary.com/dq829orud/image/upload/v1750523648/20250619_1044_Grain_Gradient_Sphere_remix_01jy39njjefmdr1fmd6py1dzyx_em2dqd.png"
         className="w-full h-full object-cover"
@@ -34,6 +34,9 @@ function App() {
           <li>Community</li>
           <button className="bg-gray-800 px-3 py-1 rounded-full">Join Today</button>
         </ul>
+      </div>
+      <div className="bg-red-400 h-50 w-50">
+        hi
       </div>
     </div>
   );
